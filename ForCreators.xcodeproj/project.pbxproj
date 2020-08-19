@@ -15,6 +15,8 @@
 		A050C20224EDA585006C11D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D724EDA583006C11D2 /* ContentView.swift */; };
 		A050C20324EDA585006C11D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A050C1D824EDA585006C11D2 /* Assets.xcassets */; };
 		A050C20424EDA585006C11D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A050C1D824EDA585006C11D2 /* Assets.xcassets */; };
+		A050C21424EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */; };
+		A050C21524EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		A050C1F824EDA585006C11D2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050C1FC24EDA585006C11D2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A050C1FE24EDA585006C11D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		A050C1D024EDA583006C11D2 = {
 			isa = PBXGroup;
 			children = (
+				A050C21624EDA5AB006C11D2 /* CourseDemos */,
 				A050C1D524EDA583006C11D2 /* Shared */,
 				A050C1DF24EDA585006C11D2 /* iOS */,
 				A050C1E624EDA585006C11D2 /* macOS */,
@@ -149,6 +153,14 @@
 				A050C1FE24EDA585006C11D2 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		A050C21624EDA5AB006C11D2 /* CourseDemos */ = {
+			isa = PBXGroup;
+			children = (
+				A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */,
+			);
+			path = CourseDemos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +322,7 @@
 			files = (
 				A050C20124EDA585006C11D2 /* ContentView.swift in Sources */,
 				A050C1FF24EDA585006C11D2 /* ForCreatorsApp.swift in Sources */,
+				A050C21424EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +332,7 @@
 			files = (
 				A050C20224EDA585006C11D2 /* ContentView.swift in Sources */,
 				A050C20024EDA585006C11D2 /* ForCreatorsApp.swift in Sources */,
+				A050C21524EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

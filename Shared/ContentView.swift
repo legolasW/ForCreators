@@ -8,14 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.scenePhase) private var scenePhase
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                NavigationLink(destination: AccentColorDemo()) {
+                    Text("Accent Color")
+                }
+            }
+        }
+        .onChange(of: scenePhase) { phase in
+            if phase == .background {
+                print("Enter Background")
+            }
+        }
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+
+
+
