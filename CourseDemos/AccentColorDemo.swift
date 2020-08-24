@@ -24,7 +24,14 @@ struct AccentColorDemo: View {
 
 struct AccentColorDemo_Previews: PreviewProvider {
     static var previews: some View {
-        AccentColorDemo()
+        Group {
+            AccentColorDemo()
+                .previewLayout(.sizeThatFits)
+                .preferredColorScheme(.light)
+            AccentColorDemo()
+                .previewLayout(.sizeThatFits)
+                .preferredColorScheme(.dark)
+        }
     }
 }
 

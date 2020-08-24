@@ -3,16 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A001849724F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001849624F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift */; };
+		A001849824F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001849624F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift */; };
+		A001849924F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001849624F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift */; };
+		A019659E24F21323000F6030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A019659D24F21323000F6030 /* Assets.xcassets */; };
+		A01965A524F21323000F6030 /* LegolasDemo Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A01965A424F21323000F6030 /* LegolasDemo Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A01965AA24F21323000F6030 /* ForCreatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965A924F21323000F6030 /* ForCreatorsApp.swift */; };
+		A01965AC24F21323000F6030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965AB24F21323000F6030 /* ContentView.swift */; };
+		A01965AE24F21323000F6030 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965AD24F21323000F6030 /* NotificationController.swift */; };
+		A01965B024F21323000F6030 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965AF24F21323000F6030 /* NotificationView.swift */; };
+		A01965B224F21323000F6030 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965B124F21323000F6030 /* ComplicationController.swift */; };
+		A01965B424F21324000F6030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01965B324F21324000F6030 /* Assets.xcassets */; };
+		A01965B724F21324000F6030 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01965B624F21324000F6030 /* Preview Assets.xcassets */; };
+		A01965BC24F21324000F6030 /* LegolasDemo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A019659B24F21322000F6030 /* LegolasDemo.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A01965C824F2158E000F6030 /* AccentColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */; };
+		A01965CB24F218AF000F6030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965AB24F21323000F6030 /* ContentView.swift */; };
+		A01965CC24F218AF000F6030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965AB24F21323000F6030 /* ContentView.swift */; };
+		A01965CE24F23D5C000F6030 /* DrinkWaterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965CD24F23D5C000F6030 /* DrinkWaterDemo.swift */; };
+		A01965CF24F23D5C000F6030 /* DrinkWaterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965CD24F23D5C000F6030 /* DrinkWaterDemo.swift */; };
+		A01965D024F23D5C000F6030 /* DrinkWaterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01965CD24F23D5C000F6030 /* DrinkWaterDemo.swift */; };
 		A050C1F224EDA585006C11D2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1F124EDA585006C11D2 /* Tests_iOS.swift */; };
 		A050C1FD24EDA585006C11D2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1FC24EDA585006C11D2 /* Tests_macOS.swift */; };
-		A050C1FF24EDA585006C11D2 /* ForCreatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D624EDA583006C11D2 /* ForCreatorsApp.swift */; };
-		A050C20024EDA585006C11D2 /* ForCreatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D624EDA583006C11D2 /* ForCreatorsApp.swift */; };
-		A050C20124EDA585006C11D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D724EDA583006C11D2 /* ContentView.swift */; };
-		A050C20224EDA585006C11D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D724EDA583006C11D2 /* ContentView.swift */; };
+		A050C1FF24EDA585006C11D2 /* ForCreatorsMainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D624EDA583006C11D2 /* ForCreatorsMainApp.swift */; };
+		A050C20024EDA585006C11D2 /* ForCreatorsMainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D624EDA583006C11D2 /* ForCreatorsMainApp.swift */; };
+		A050C20124EDA585006C11D2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D724EDA583006C11D2 /* MainView.swift */; };
+		A050C20224EDA585006C11D2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C1D724EDA583006C11D2 /* MainView.swift */; };
 		A050C20324EDA585006C11D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A050C1D824EDA585006C11D2 /* Assets.xcassets */; };
 		A050C20424EDA585006C11D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A050C1D824EDA585006C11D2 /* Assets.xcassets */; };
 		A050C21424EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */; };
@@ -20,6 +39,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A01965A624F21323000F6030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A050C1D124EDA583006C11D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01965A324F21323000F6030;
+			remoteInfo = "LegolasDemo Extension";
+		};
+		A01965BA24F21324000F6030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A050C1D124EDA583006C11D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A019659A24F21322000F6030;
+			remoteInfo = LegolasDemo;
+		};
 		A050C1EE24EDA585006C11D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A050C1D124EDA583006C11D2 /* Project object */;
@@ -36,9 +69,50 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A01965BD24F21324000F6030 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A01965BC24F21324000F6030 /* LegolasDemo.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01965C024F21324000F6030 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A01965A524F21323000F6030 /* LegolasDemo Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A050C1D624EDA583006C11D2 /* ForCreatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCreatorsApp.swift; sourceTree = "<group>"; };
-		A050C1D724EDA583006C11D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A001849624F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeSwiftUICanvasDemo.swift; sourceTree = "<group>"; };
+		A019659B24F21322000F6030 /* LegolasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegolasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A019659D24F21323000F6030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A019659F24F21323000F6030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01965A424F21323000F6030 /* LegolasDemo Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LegolasDemo Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01965A924F21323000F6030 /* ForCreatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCreatorsApp.swift; sourceTree = "<group>"; };
+		A01965AB24F21323000F6030 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A01965AD24F21323000F6030 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A01965AF24F21323000F6030 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A01965B124F21323000F6030 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A01965B324F21324000F6030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01965B624F21324000F6030 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A01965B824F21324000F6030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01965B924F21324000F6030 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A01965CA24F217A3000F6030 /* ForCreators.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForCreators.entitlements; sourceTree = "<group>"; };
+		A01965CD24F23D5C000F6030 /* DrinkWaterDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterDemo.swift; sourceTree = "<group>"; };
+		A050C1D624EDA583006C11D2 /* ForCreatorsMainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCreatorsMainApp.swift; sourceTree = "<group>"; };
+		A050C1D724EDA583006C11D2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A050C1D824EDA585006C11D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A050C1DD24EDA585006C11D2 /* ForCreators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCreators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050C1E024EDA585006C11D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +129,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A01965A124F21323000F6030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A050C1DA24EDA585006C11D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,15 +167,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A019659C24F21322000F6030 /* LegolasDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A019659D24F21323000F6030 /* Assets.xcassets */,
+				A019659F24F21323000F6030 /* Info.plist */,
+			);
+			path = LegolasDemo;
+			sourceTree = "<group>";
+		};
+		A01965A824F21323000F6030 /* LegolasDemo Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A01965A924F21323000F6030 /* ForCreatorsApp.swift */,
+				A01965AB24F21323000F6030 /* ContentView.swift */,
+				A01965AD24F21323000F6030 /* NotificationController.swift */,
+				A01965AF24F21323000F6030 /* NotificationView.swift */,
+				A01965B124F21323000F6030 /* ComplicationController.swift */,
+				A01965B324F21324000F6030 /* Assets.xcassets */,
+				A01965B824F21324000F6030 /* Info.plist */,
+				A01965B924F21324000F6030 /* PushNotificationPayload.apns */,
+				A01965B524F21324000F6030 /* Preview Content */,
+			);
+			path = "LegolasDemo Extension";
+			sourceTree = "<group>";
+		};
+		A01965B524F21324000F6030 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A01965B624F21324000F6030 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A050C1D024EDA583006C11D2 = {
 			isa = PBXGroup;
 			children = (
+				A01965CA24F217A3000F6030 /* ForCreators.entitlements */,
 				A050C21624EDA5AB006C11D2 /* CourseDemos */,
 				A050C1D524EDA583006C11D2 /* Shared */,
 				A050C1DF24EDA585006C11D2 /* iOS */,
 				A050C1E624EDA585006C11D2 /* macOS */,
 				A050C1F024EDA585006C11D2 /* Tests iOS */,
 				A050C1FB24EDA585006C11D2 /* Tests macOS */,
+				A019659C24F21322000F6030 /* LegolasDemo */,
+				A01965A824F21323000F6030 /* LegolasDemo Extension */,
 				A050C1DE24EDA585006C11D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,8 +219,8 @@
 		A050C1D524EDA583006C11D2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				A050C1D624EDA583006C11D2 /* ForCreatorsApp.swift */,
-				A050C1D724EDA583006C11D2 /* ContentView.swift */,
+				A050C1D624EDA583006C11D2 /* ForCreatorsMainApp.swift */,
+				A050C1D724EDA583006C11D2 /* MainView.swift */,
 				A050C1D824EDA585006C11D2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -116,6 +233,8 @@
 				A050C1E524EDA585006C11D2 /* ForCreators.app */,
 				A050C1ED24EDA585006C11D2 /* Tests iOS.xctest */,
 				A050C1F824EDA585006C11D2 /* Tests macOS.xctest */,
+				A019659B24F21322000F6030 /* LegolasDemo.app */,
+				A01965A424F21323000F6030 /* LegolasDemo Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +278,8 @@
 			isa = PBXGroup;
 			children = (
 				A050C21324EDA5A4006C11D2 /* AccentColorDemo.swift */,
+				A01965CD24F23D5C000F6030 /* DrinkWaterDemo.swift */,
+				A001849624F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift */,
 			);
 			path = CourseDemos;
 			sourceTree = "<group>";
@@ -166,6 +287,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A019659A24F21322000F6030 /* LegolasDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01965C424F21324000F6030 /* Build configuration list for PBXNativeTarget "LegolasDemo" */;
+			buildPhases = (
+				A019659924F21322000F6030 /* Resources */,
+				A01965C024F21324000F6030 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01965A724F21323000F6030 /* PBXTargetDependency */,
+			);
+			name = LegolasDemo;
+			productName = LegolasDemo;
+			productReference = A019659B24F21322000F6030 /* LegolasDemo.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A01965A324F21323000F6030 /* LegolasDemo Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01965C324F21324000F6030 /* Build configuration list for PBXNativeTarget "LegolasDemo Extension" */;
+			buildPhases = (
+				A01965A024F21323000F6030 /* Sources */,
+				A01965A124F21323000F6030 /* Frameworks */,
+				A01965A224F21323000F6030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LegolasDemo Extension";
+			productName = "LegolasDemo Extension";
+			productReference = A01965A424F21323000F6030 /* LegolasDemo Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		A050C1DC24EDA585006C11D2 /* ForCreators (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A050C20724EDA585006C11D2 /* Build configuration list for PBXNativeTarget "ForCreators (iOS)" */;
@@ -173,10 +328,12 @@
 				A050C1D924EDA585006C11D2 /* Sources */,
 				A050C1DA24EDA585006C11D2 /* Frameworks */,
 				A050C1DB24EDA585006C11D2 /* Resources */,
+				A01965BD24F21324000F6030 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A01965BB24F21324000F6030 /* PBXTargetDependency */,
 			);
 			name = "ForCreators (iOS)";
 			productName = "ForCreators (iOS)";
@@ -245,6 +402,12 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					A019659A24F21322000F6030 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A01965A324F21323000F6030 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					A050C1DC24EDA585006C11D2 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -278,11 +441,30 @@
 				A050C1E424EDA585006C11D2 /* ForCreators (macOS) */,
 				A050C1EC24EDA585006C11D2 /* Tests iOS */,
 				A050C1F724EDA585006C11D2 /* Tests macOS */,
+				A019659A24F21322000F6030 /* LegolasDemo */,
+				A01965A324F21323000F6030 /* LegolasDemo Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A019659924F21322000F6030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A019659E24F21323000F6030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01965A224F21323000F6030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01965B724F21324000F6030 /* Preview Assets.xcassets in Resources */,
+				A01965B424F21324000F6030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A050C1DB24EDA585006C11D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,12 +498,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A01965A024F21323000F6030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01965AE24F21323000F6030 /* NotificationController.swift in Sources */,
+				A01965AC24F21323000F6030 /* ContentView.swift in Sources */,
+				A01965C824F2158E000F6030 /* AccentColorDemo.swift in Sources */,
+				A01965B224F21323000F6030 /* ComplicationController.swift in Sources */,
+				A01965AA24F21323000F6030 /* ForCreatorsApp.swift in Sources */,
+				A01965D024F23D5C000F6030 /* DrinkWaterDemo.swift in Sources */,
+				A001849924F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift in Sources */,
+				A01965B024F21323000F6030 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A050C1D924EDA585006C11D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A050C20124EDA585006C11D2 /* ContentView.swift in Sources */,
-				A050C1FF24EDA585006C11D2 /* ForCreatorsApp.swift in Sources */,
+				A01965CE24F23D5C000F6030 /* DrinkWaterDemo.swift in Sources */,
+				A050C20124EDA585006C11D2 /* MainView.swift in Sources */,
+				A001849724F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift in Sources */,
+				A050C1FF24EDA585006C11D2 /* ForCreatorsMainApp.swift in Sources */,
+				A01965CB24F218AF000F6030 /* ContentView.swift in Sources */,
 				A050C21424EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,8 +530,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A050C20224EDA585006C11D2 /* ContentView.swift in Sources */,
-				A050C20024EDA585006C11D2 /* ForCreatorsApp.swift in Sources */,
+				A01965CF24F23D5C000F6030 /* DrinkWaterDemo.swift in Sources */,
+				A050C20224EDA585006C11D2 /* MainView.swift in Sources */,
+				A001849824F31F5C00502E7E /* XcodeSwiftUICanvasDemo.swift in Sources */,
+				A050C20024EDA585006C11D2 /* ForCreatorsMainApp.swift in Sources */,
+				A01965CC24F218AF000F6030 /* ContentView.swift in Sources */,
 				A050C21524EDA5A4006C11D2 /* AccentColorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +558,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A01965A724F21323000F6030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01965A324F21323000F6030 /* LegolasDemo Extension */;
+			targetProxy = A01965A624F21323000F6030 /* PBXContainerItemProxy */;
+		};
+		A01965BB24F21324000F6030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = A019659A24F21322000F6030 /* LegolasDemo */;
+			targetProxy = A01965BA24F21324000F6030 /* PBXContainerItemProxy */;
+		};
 		A050C1EF24EDA585006C11D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A050C1DC24EDA585006C11D2 /* ForCreators (iOS) */;
@@ -368,6 +582,96 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A01965BE24F21324000F6030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DENVHJV75;
+				IBSC_MODULE = LegolasDemo_Extension;
+				INFOPLIST_FILE = LegolasDemo/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ForCreators.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A01965BF24F21324000F6030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DENVHJV75;
+				IBSC_MODULE = LegolasDemo_Extension;
+				INFOPLIST_FILE = LegolasDemo/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ForCreators.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		A01965C124F21324000F6030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LegolasDemo Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DENVHJV75;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LegolasDemo Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ForCreators.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A01965C224F21324000F6030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LegolasDemo Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DENVHJV75;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LegolasDemo Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ForCreators.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
 		A050C20524EDA585006C11D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -484,6 +788,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForCreators.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DENVHJV75;
 				ENABLE_PREVIEWS = YES;
@@ -496,8 +801,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ForCreators;
 				PRODUCT_NAME = ForCreators;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -506,6 +812,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForCreators.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DENVHJV75;
 				ENABLE_PREVIEWS = YES;
@@ -518,8 +825,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ForCreators;
 				PRODUCT_NAME = ForCreators;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -664,6 +972,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A01965C324F21324000F6030 /* Build configuration list for PBXNativeTarget "LegolasDemo Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01965C124F21324000F6030 /* Debug */,
+				A01965C224F21324000F6030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01965C424F21324000F6030 /* Build configuration list for PBXNativeTarget "LegolasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01965BE24F21324000F6030 /* Debug */,
+				A01965BF24F21324000F6030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A050C1D424EDA583006C11D2 /* Build configuration list for PBXProject "ForCreators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

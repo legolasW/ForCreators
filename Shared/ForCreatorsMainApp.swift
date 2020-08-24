@@ -1,5 +1,5 @@
 //
-//  ForCreatorsApp.swift
+//  ForCreatorsMainApp.swift
 //  Shared
 //
 //  Created by Legolas on 8/19/20.
@@ -8,11 +8,11 @@
 import SwiftUI
 
 @main
-struct ForCreatorsApp: App {
+struct ForCreatorsMainApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

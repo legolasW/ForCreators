@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     @Environment(\.scenePhase) private var scenePhase
     
     var body: some View {
@@ -15,6 +15,9 @@ struct ContentView: View {
             List {
                 NavigationLink(destination: AccentColorDemo()) {
                     Text("Accent Color")
+                }
+                NavigationLink(destination: DrinkWaterDemo()) {
+                    Text("Drink Water")
                 }
             }
         }
@@ -27,10 +30,9 @@ struct ContentView: View {
 }
 
 
-
-struct ContentView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
 
